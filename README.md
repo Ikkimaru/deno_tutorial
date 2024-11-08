@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Deno Dinosaurs App
 
-## Getting Started
+A simple application built with Deno using their Guide that displays a list of dinosaurs. When a dinosaur's name is clicked, additional information about that dinosaur is shown on a new page. This project demonstrates the basics of using Deno to serve web pages, handle routes, and work with JSON data.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Deno Dinosaurs app is a simple, educational project designed to introduce developers to Deno, a secure JavaScript and TypeScript runtime built on V8. Similar to Node.js but with modern enhancements, Deno provides a streamlined way to work with server-side JavaScript.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application has two main components:
+1. **Dino List**: A main page that displays a list of dinosaur names from a JSON dataset.
+2. **Dino Details**: Clicking on a dinosaur's name loads a separate page with more details about that specific dinosaur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Dino List**: Displays all dinosaur names from a JSON dataset on the main page.
+- **Dino Details**: Clicking on a dinosaur name loads a separate page with information like period, diet, and other details.
+- **JSON Data Handling**: Dinosaur data is stored in a JSON file, demonstrating basic file reading and serving in Deno.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Deno**: A JavaScript and TypeScript runtime.
+- **HTML/CSS**: Basic styling and layout for web pages.
+- **JSON**: Data format for dinosaur information storage.
